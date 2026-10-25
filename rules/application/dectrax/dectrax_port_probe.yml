@@ -1,19 +1,19 @@
 title: DECTRAX Deception Volumetric Port Probing & Reconnaissance
 id: 1e6c3d54-b395-4f73-9346-95a11b96d404
-status: test
+status: experimental
 description: Detects automated adversary sweeps or network reconnaissance scanning across multiple ports or multiple DECTRAX deception nodes.
 references:
     - https://dectrax.com/docs/recon-detection
 author: Oscar Martinez (DECTRAX Security Engineering)
 date: 2026-10-20
-modified: 2026-10-21
+modified: 2026-10-26
 tags:
-    - attack.reconnaissance
     - attack.discovery
     - attack.t1046
+    - attack.reconnaissance
     - attack.t1595
 logsource:
-    category: network
+    category: application
     product: dectrax
 detection:
     selection:
